@@ -35,11 +35,8 @@ async function checkWeather(city){
   else if(data.weather[0].main == "Rain") {
     weatherIcon.src="images/rain..jpg";
   }
-
-
 }
 
 searchBtn.addEventListener("click", ()=>{
   checkWeather(searchBox.value);
-
 });

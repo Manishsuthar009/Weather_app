@@ -6,14 +6,18 @@
 }
 
 body{
-  background: black;
+  background: url(image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
 }
 .card{
   width: 90%;
   max-width: 470px;
   background: linear-gradient(135deg, #00feba, #5b548a);
   color: white;
-  margin: 100px auto 0;
+  margin: 100px auto ;
   padding: 40px 35px;
   border-radius: 20px;
   text-align: center;
